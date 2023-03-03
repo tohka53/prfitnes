@@ -1,0 +1,145 @@
+body {
+    font-family: Helvetica;
+    font-size: 9px;
+}
+
+@page {
+    margin-top: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 80px;
+}
+
+header {
+    position: fixed;
+    top: -80px;
+    left: 0px;
+    right: 0px;
+    height: 70px;
+    /*  border-top: 3px solid #333; 
+    border-bottom: 3px solid #333;  */
+}
+
+footer {
+    position: fixed;
+    bottom: -60px;
+    left: 0px;
+    right: 0px;
+    border-top: 3px solid #333;
+    background-color: #ffd;
+    height: 50px;
+}
+
+#header_logo {
+    background: white;
+    width: 140px;
+    text-align: center;
+}
+
+#logo {
+    width: 80px;
+}
+
+#header_texto {
+    text-align: center;
+    background: white;
+    font-size: 13px;
+    width: 450px;
+}
+
+#header_logos {
+    background: white;
+    text-align: center;
+    width: 150px;
+}
+
+#logo1,
+#logo2 {
+    width: 50px;
+}
+
+#footer_texto {
+    text-align: center;
+    font-size: 9px;
+    font-weight: bold;
+}
+
+#texto_main {
+    margin-top: 25px;
+    text-align: justify;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+
+/*
+#table_info {
+    width: 60px;
+    height: 10px;
+}
+
+*/
+
+#tabla_info_ev1 {
+    width: 730px;
+    /*   height: 50px;
+    font-weight: bold; */
+}
+
+#table_dgene {
+    /*font-weight: bold;*/
+    width: 369px;
+    height: 20px;
+    font-size: 11px;
+}
+/*
+#table_dgene2 {
+    font-size: 10px;
+    margin-left: 294px;
+    margin-top: -186px;
+    
+}  */
+#table_total{
+    font-size: 14px;
+    margin-left: 94px;
+    margin-top: -86px;
+}
+ 
+#table_dgeneT2 {
+    /*
+    width: -369px;
+    height: 20px; */
+    font-size: 10px;
+    margin-left: 350px;
+    /* here*/
+    margin-top: -202px;
+}
+
+#table_dgeneD {
+    /* margin-right*/
+    font-size: 10px;
+    margin-right: 373px;
+    margin-top: -70px;
+}
+
+#num {
+    /*font-weight: bold;  */
+    width: -69px;
+    margin-right: 373px;
+    font-size: 12px;
+}
+#table_cont {
+    width: 372px;
+    font-weight: normal;
+    font-size: 11px;
+    text-align: left;
+    border-collapse: collapse;
+    /*  height: 25px;*/
+}
+#table_sign {
+    width: 672px;
+    font-size: 9px;
+    height: 169px;
+}
